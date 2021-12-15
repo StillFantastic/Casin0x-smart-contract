@@ -98,5 +98,8 @@ contract Casin0x {
     function getBetCount() public view returns (uint256) {
         return bets.length;
     }
-
+    
+    function getGameInfo() public view returns (GameInfo memory) {
+	return gameInfo;	
+    }
 }
